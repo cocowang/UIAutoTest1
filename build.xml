@@ -1,10 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?>
+1<?xml version="1.0" encoding="UTF-8"?>
 
 <project name="AUTO_TEST" basedir="./.." default="run_tests">
-	<property name="src" value="${basedir}/UIAutoTest/src" />
+	<property name="src" value="${basedir}/UIAutoTest1/src" />
 	<property name="dest" value="classes" />
-	<property name="lib.dir" value="${basedir}/UIAutoTest/lib" />
-	<property name="output.dir" value="${basedir}/../UIAutoTest/test-output" />
+	<property name="lib.dir" value="${basedir}/UIAutoTest1/lib" />
+	<property name="output.dir" value="${basedir}/../UIAutoTest1/test-output" />
 	<path id="compile.path">
 		<fileset dir="${lib.dir}/">
 			<include name="*.jar" />
